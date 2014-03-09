@@ -134,6 +134,7 @@ GameObject:
   - 4: {fileID: 572558838}
   - 212: {fileID: 572558837}
   - 114: {fileID: 572558836}
+  - 61: {fileID: 572558839}
   m_Layer: 0
   m_Name: hati_hitam
   m_TagString: Untagged
@@ -187,6 +188,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!61 &572558839
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 572558835}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .180000007, y: .150000006}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &683870508
 GameObject:
   m_ObjectHideFlags: 0
